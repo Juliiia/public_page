@@ -4,6 +4,12 @@ import { LinkOpenInNewTab } from "../components/linkElement";
 import { BlogPageStructure } from '../components/pageLayout';
 // @ts-ignore
 import placeholder from '../assets/img/placeholder.png'
+// @ts-ignore
+import slrBanner from '../assets/img/slr_banner.png'
+// @ts-ignore
+import preRSBanner from '../assets/img/Pre-RS_traceability_banner.png'
+// @ts-ignore
+import dissBanner from '../assets/img/Diss_banner.png'
 import { Label } from "../components/label";
 
 export const BlogPage = () => {
@@ -14,7 +20,7 @@ export const BlogPage = () => {
             
             <DefaultCard 
                 title={t('blogPage.benefitsPaper.title')} 
-                imgSrc={placeholder} 
+                imgSrc={preRSBanner} 
                 imgAlt={"Deco"} 
                 labels={
                     <>
@@ -35,7 +41,7 @@ export const BlogPage = () => {
 
             <DefaultCard 
                 title={t('blogPage.slrPaper.title')} 
-                imgSrc={placeholder} 
+                imgSrc={slrBanner} 
                 imgAlt={"Deco"} 
                 labels={
                     <>
@@ -59,7 +65,7 @@ export const BlogPage = () => {
 
             <DefaultCard 
                 title={t('blogPage.diss.title')} 
-                imgSrc={placeholder} 
+                imgSrc={dissBanner} 
                 imgAlt={"Deco"} 
                 labels={
                     <>

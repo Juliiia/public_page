@@ -6,16 +6,6 @@ import { useTranslation} from "react-i18next";
 import portrait from '../../assets/img/Mucha_Querformat-freisteller.png'
 import { StyledInnerPageContainer } from '../../components/pageLayout.js';
 
-const StyledPageContainer = styled.div`
-    margin: 30px auto 60px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    @media (max-width: ${constants.tabletScreenSize}) {
-        min-height: 450px;
-    }
-`;
-
 const StyledHaderBox = styled.div`
     min-height: 300px;
     display: flex;
@@ -79,13 +69,15 @@ const StyledInnerPageFlexContainer = styled(StyledInnerPageContainer)`
     display: grid;
     grid-template-columns: auto;
     row-gap: 30px;
-    margin: 40px auto;
+    margin: 60px auto 80px auto;
 `;
 
 const StyledStatement = styled.div`
     line-height: normal;
     font-style: italic;
     font-size: 24px;
+    border: ${constants.mainOrange};
+    border-style: solid;
     border-radius: 0px 30px 30px;
     padding: 15px;
 `;

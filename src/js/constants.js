@@ -31,7 +31,7 @@ export default {
     fontSizeSmallText: `${basicFontSize - 3}px`,
 
     // color
-    mainOrange: '#D29A7F',
+    mainOrange: '#e29851', //#D29A7F
     defaultTextColor: '#000000',
 
     darkBlue: '#3E5872',

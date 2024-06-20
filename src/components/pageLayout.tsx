@@ -4,14 +4,14 @@ import { DefaultTFuncReturn } from 'i18next';
 
 export const StyledPage = styled.div`
     max-width: ${constants.sectionMaxWidthDefault};
-    margin: 10px auto;
+    margin: 40px auto;
     @media (min-width: ${constants.monitorScreenSize}) {
         max-width: ${constants.maxPageWidthLarge};
     }
 `;
 
 export const StyledInnerPageContainer = styled.div`
-    padding: 10px;
+    padding: 40px 10px;
     max-width: inherit;
 `;
 
@@ -19,7 +19,7 @@ const StyledBlogPage = styled.div`
     display: grid;
     grid-template-columns: auto;
     row-gap: 100px;
-    margin-top: 40px;
+    margin-top: 60px;
     @media (min-width: ${constants.monitorScreenSize}) {
         grid-template-columns: 45% 45%;
         justify-content: space-between;
