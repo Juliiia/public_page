@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from "react-router-dom";
 import { LanguageSwitcher } from "../../components/languageSwitcher.js";
 // @ts-ignore
 import envelope from '../../assets/img/envelope.svg';
@@ -33,7 +34,7 @@ const Footer = () => {
     return (
         <StyledFooterContainer>
             <LanguageSwitcher/>
-            <InternalLink linkTo={'/impressum'}>{t('impressum.title')}</InternalLink>
+            <Link to="/impressum">{t('legalDisclosure.title')}</Link>
             <StyledSocialLinkContainer>
                 <IconLink linkTo='mailto:mail@juliamucha.de?subject=Mail from juliamucha.de' icon={envelope} alt='mail address' />
                 <IconLink linkTo='https://www.linkedin.com/in/julia-mucha-b543a912a/' icon={linkedIn} alt='LinkedIn' />

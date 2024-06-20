@@ -6,7 +6,7 @@ export const Impressum = () => {
     const [t, i18n] = useTranslation('common');
     
     return (
-        <OneColumnPageStructure title={t('impressum.title')} >
+        <OneColumnPageStructure title={t('legalDisclosure.title')} >
             <>
                 <p>
                     {t('legalDisclosure.id')}

@@ -49,9 +49,6 @@
         "linkPublication": "Veröffentlichung bei Friedrich-Alexander Universität"
     }
   },
-  "impressum": {
-    "title": "Impressum"
-  },
   "uxui": {
     "section": {
       "title": "UX/UI Design",
@@ -67,6 +64,7 @@
     }
   },
   "legalDisclosure": {
+    "title" : "Impressum",
     "id" : "Angaben gemäß § 5 TMG\n \n Julia Mucha \n Gostenhofer Schulgasse 32 \n 90443 Nürnberg  \n \n",
     "represented" : "Vertreten durch:\n Julia Mucha\n Kontakt: \n Telefon: +49 1733653554 \n E-Mail:", 
     "contact" : "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:\n Julia Mucha \n Gostenhofer Schulgasse 32 \n 90443 Nürnberg",
