@@ -1,0 +1,69 @@
+{
+  "topSection": {
+    "me": "Dr.-Ing. Julia Mucha",
+    "re": "Requirements Engineering",
+    "uxui": "UX/UI",
+    "dev": "Frontend Development",
+    "statement": "With creativity and structure, I support the planning and implementation of software projects. From requirements gathering to user interface development and implementation planning, I am here to offer guidance and assistance."
+  },
+   "navbar": {
+    "about": "About"
+  },
+   "tags": {
+    "re": "Requirements Engineering",
+    "traceability": "Traceability",
+    "uxui": "UX/UI",
+    "frontend": "Frontend Development"
+  },
+   "portfolioPage": {
+    "title": "Portfolio",
+    "qdacity": {
+        "title": "QDAcity - Tool for qualitative data analysis",
+        "content": "QDAcity is a web application for conducting qualitative data analyses. User groups include researchers and market analysts who want to derive new insights from numerous, often textual, sources. Together with my two colleagues and with the support of students, we worked on the development of the application. My focus was on designing the user interfaces (UI) and improving the user experience (UX).",
+        "linkToPage": "Official QDAcity Page",
+        "linkToProjectDetails": "PDF [in German] about project details"
+    },
+    "climbingDiary": {
+        "title": "Climbing Diary - your digital logbook for your vertical successes",
+        "content": "The Climbing Diary is a mobile app for climbers and boulderers to log their projects and ascents and to analyze their performance. The goal of the case study is to capture the needs and expectations of users for such an app in order to improve its functionality, usability, and design.",
+        "linkToGithub": "Link to Github Repository",
+        "linkToProjectDetails": "PDF [in German] about project details"
+    }
+  },
+   "blogPage": {
+    "title": "Publications",
+    "benefitsPaper": {
+        "title": "Benefits about Pre-RS-Traceability",
+        "content": "Abstract: Requirements traceability is the ability to trace requirements to other software engineering artifacts. Traceability can be classified as either pre- or post-requirements specifications (RS) traceability. Pre-RS traceability is the ability to trace between requirements and their origin. However, the benefits of pre-RS traceability are often not clear. In this article, we systematically lay out the benefits of pre-RS traceability. We present results from both a literature review and a qualitative survey of practitioners involved with documenting and utilizing such trace links. We find that the benefits strongly depend on the practitioners, their tasks, and the project environment. Awareness of these relationships supports a clearer understanding of the benefits of pre-RS traceability and thus motivates successful implementation of the required practices. The results of our research motivates the adoption of pre-RS traceability and present problem areas for future research.",
+        "linkIEEE": "Published in 2022 IEEE 30th International Requirements Engineering Conference (RE)"
+    },
+    "slrPaper": {
+        "title": "A systematic literature review of pre-requirements specification traceability",
+        "content": "Abstract: Requirements traceability (RT) is the ability to link requirements to other software development artifacts. In pre-requirements (pre-RS) traceability, requirements are linked to their origin, such as interviews with stakeholders, meeting protocols, or legacy systems. Compared with post-RS traceability, which links requirements to source code and other later artifacts, pre-RS traceability has seen much less research. This article presents a systematic literature review of pre-RS traceability based on 77 articles published between 1992 and 2022, aiming to provide a comprehensive overview of its use cases, benefits, problems, and solutions. Through the analysis of existing literature, this review identifies gaps for future research and establishes a foundation for future investigations in the field of pre-RS traceability.",
+        "linkArticle": "Journal Article published in Requirements Engineering Springer",
+        "linkTechReport": "Code System published as technical report"
+    },
+    "diss": {
+        "title": "Dissertation: The QDAcity-RE-RS Method for Creating Complete, Consistent, and Traceable Requirements Specifications",
+        "content": "Resolving issues that arise in a software project becomes more expensive as the project advances. Hence, it is crucial for a requirements engineer to develop a complete, consistent, and traceable requirements specification (RS). To create such a high-quality RS, the requirements engineer must develop a deep understanding of the problem domain. In science, researchers face a similar challenge when building theories. Constructing a theory requires considering all related resources to capture a broad diversity of characteristics. In addition, researchers must document the theory-building process to demonstrate high quality and ensure traceability for other researchers who want to build on the theory. Therefore, researchers developed methods for theory building, from which we draw inspiration for our research.",
+        "linkPublication": "Published at Friedrich-Alexander University"
+    }
+  },
+  "impressum": {
+    "title": "Impressum"
+  },
+  "uxui": {
+    "section": {
+      "title": "UX/UI Design",
+      "content": "I do UX/UI design to make applications more usable and look friendlier. I also design and develop websites. Thanks to my studies, I have background knowledge from software development, which simplifies the planning and implementation of new interaction concepts and interfaces."
+    }
+  },
+  "aboutMe": {
+    "section": {
+      "title": "About me",
+      "personal": "I am Julia. I love to paint and design analogue as well as digital. Unfortunately, I also like to travel and climb. I always have a pen and notebook with me. If space allows, the colors will be included.",
+      "professional": "I am a self-taught designer and artist. I studied computer science of media at the Technical University of Dresden. The course expanded my creative scope to the digital world and deepened my knowledge of software development. Finde my CV on <link1>LinkedIn</link1>.",
+      "claim": "I love to plan and implement new ideas analogously or digitally and to accompany existing projects creatively and energetically."
+    }
+  }
+}

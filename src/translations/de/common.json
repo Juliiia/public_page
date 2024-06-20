@@ -1,0 +1,69 @@
+{
+  "topSection": {
+    "me": "Dr.-Ing. Julia Mucha",
+    "re": "Requirements Engineering",
+    "uxui": "UX/UI",
+    "dev": "Frontend Development",
+    "statement": "Mit Kreativität und Struktur unterstütze ich bei der Planung und Umsetztung von Softwareprojekten. Von der Erhebung der Anforderungen, über die Entwicklung von Nutzerobeflächen bishin zur Planung der Implementierung, stehe ich gerne mit Rat und Tat zur Seite."
+  }, 
+   "navbar": {
+    "about": "Über"
+  },
+   "tags": {
+    "re": "Anforderungsmanagement",
+    "traceability": "Traceability",
+    "uxui": "UX/UI",
+    "frontend": "Frontend-Entwicklung"
+  },
+   "portfolioPage": {
+    "title": "Portfolio",
+    "qdacity": {
+            "title": "QDAcity - Tool für Qualitative Datenanalyse",
+            "content": "QDAcity ist eine Webanwendung für die Durchführung von Qualitativen Datenanalysen. Nutzergruppen sind beispielsweise Forscher oder auch Marktanalysten, welche aus vielen häufig textuellen Quellen neue Erkenntnisse gewinnen wollen. Gemeinsam mit meinen beiden Kollegen und der Unterstützung von Studierenden arbeiteten wir an der Entwicklung der Anwendung. Mein Schwerpunkt lag im Design der Nutzeroberflächen (UI) und der Verbesserung der Nutzererfahrung (UX).",
+        "linkToPage": "Offizielle QDAcity Webanwendung",
+        "linkToProjectDetails": "PDF über Projektdetails"
+    },
+    "climbingDiary": {
+        "title": "Climbing Diary - dein digitales Logbuch für deine vertikalen Erfolge",
+        "content": "Das Climbing Diary ist eine mobile App für Kletterer und Boulder, um ihre Projekte und Begehungen zu loggen und die eigene Leistung zu analysieren. Das Ziel der Fallstudie ist die Bedürfnisse und Erwartungen der Nutzer an eine solche App zu erfassen, um die Funktionalität, die Nutzbarkeit und das Design der App zu verbessern. ",
+        "linkToProjectDetails": "PDF über Projektdetails",
+        "linkToGithub": "Link zum Github Repository"
+    }
+  },
+   "blogPage": {
+    "title": "Veröffentlichungen",
+    "benefitsPaper": {
+        "title": "Nutzen von Pre-RS-Traceability",
+        "content": "Abstrakt [EN]: Requirements traceability is the ability to trace requirements to other software engineering artifacts. Traceability can be classified as either pre- or post-requirements specifications (RS) traceability. Pre-RS traceability is the ability to trace between requirements and their origin. However, the benefits of pre-RS traceability are often not clear. In this article, we systematically lay out the benefits of pre-RS traceability. We present results from both a literature review and a qualitative survey of practitioners involved with documenting and utilizing such trace links. We find that the benefits strongly depend on the practitioners, their tasks, and the project environment. Awareness of these relationships supports a clearer understanding of the benefits of pre-RS traceability and thus motivates successful implementation of the required practices. The results of our research motivates the adoption of pre-RS traceability and present problem areas for future research.",
+        "linkIEEE": "Veröffentlichung bei 2022 IEEE 30th International Requirements Engineering Conference (RE)"
+    },
+    "slrPaper": {
+            "title": "Systematische Literatur Recherche zu Pre-RS-Traceability",
+            "content": "Abstrakt [EN]: Requirements traceability (RT) is the ability to link requirements to other software development artifacts. In pre-requirements (pre-RS) traceability, requirements are linked to their origin, such as interviews with stakeholders, meeting protocols, or legacy systems. Compared with post-RS traceability, which links requirements to source code and other later artifacts, pre-RS traceability has seen much less research. This article presents a systematic literature review of pre-RS traceability based on 77 articles published between 1992 and 2022, aiming to provide a comprehensive overview of its use cases, benefits, problems, and solutions. Through the analysis of existing literature, this review identifies gaps for future research and establishes a foundation for future investigations in the field of pre-RS traceability.",
+        "linkArticle": "Journalartikel veröffentlicht bei Requirements Engineering Springer",
+        "linkTechReport": "Code System veröffentlicht als Report"
+    },
+    "diss": {
+        "title": "Dissertation: Die QDAcity-RE-RS Methode zur Erstellung von vollständigen, konsistenten und nachvollziehbaren Anforderungsspezifikationen",
+        "content": "Das Lösen von Problemen in einem Softwareprojekt wird teurer, um so fortgeschrittener das Projekt ist. Daher sollte ein Anforderungsingenieur bereits zu Beginn eines Projektes eine möglichst vollständige, konsistente und nachvollziehbare Anforderungsspezifikation erstellen. Dafür ist es nötig, ein tiefes Verständnis für die Domaine des Nutzers zu entwickeln. In der Wissenschaft stehen Forscher vor einer ähnlichen Herausforderung, wenn es um die Entwicklung einer Theorie geht. Es müssen alle relevanten Ressourcen berücksichtigt werden, um eine breite Vielfalt von Merkmalen zu erfassen. Darüber muss der Prozess des Theoriebildung dokumentiert werden, um eine hohe Qualität nachzuweisen und die Nachvollziehbarkeit für andere Forscher zu gewährleisten, die auf der Theorie aufbauen möchten. Aus diesem Grund haben Forscher Methoden für die Theoriebildung entwickelt und im Laufe der Zeit verbessert, aus denen wir für unsere Forschung Inspiration schöpfen.",
+        "linkPublication": "Veröffentlichung bei Friedrich-Alexander Universität"
+    }
+  },
+  "impressum": {
+    "title": "Impressum"
+  },
+  "uxui": {
+    "section": {
+      "title": "UX/UI Design",
+      "content": "Ich tüftel gerne am UX/UI Design, damit Anwendungen nutzbarer werden und freundlicher aussehen. Ebenfalls gestalte und entwickle ich Webseiten. Dank meines Studiums habe ich vertieftes Hintergrundwissen aus der Softwareentwicklung, was die Planung und Umsetzung von neuen Interaktionskonzepten und Oberflächen vereinfacht."
+    }
+  },
+  "aboutMe": {
+    "section": {
+      "title": "Über mich",
+      "personal": "Ich bin Julia. Ich liebe es zu malen und zu gestalten, analog und digital. Ebenfalls reise und klettere ich leidenschaftlich gerne. Unterwegs habe ich meine Stifte und Notizbuch immer dabei. Wenn der Platz es zulässt, packe ich die Farben mit ein.",
+      "professional": "Ich bin autodidaktische Designerin und Künstlerin. Ich habe Medieninformatik an der Technischen Universität Dresden studiert. Das Studium hat meinen Gestaltungsraum auf die digitale Welt erweitert und mein Wissen in der Softwarentwicklung vertieft. Mehr zu meinem Lebenslauf findet Ihr auf <link1>LinkedIn</link1>.",
+      "claim": "Ich liebe es, neue Ideen analog oder digital umzusetzen und bestehende Projekte kreativ und tatkräftig zu begleiten."
+    }
+  }
+}
