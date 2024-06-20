@@ -42,7 +42,7 @@ const StyledNavbarItem = styled.span`
 const StyledNavbarLogo = styled.img`    
     height: 45px;
     display: block;
-    padding: 5px;
+    padding: 8px;
     cursor: pointer;
     height: inherit;
 `;

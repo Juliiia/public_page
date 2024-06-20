@@ -14,7 +14,8 @@ export const StyledSimpleLink = styled.a`
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
+    text-align: left;
 `;
 
 const StyledIconLabelDiv = styled.div`

@@ -13,6 +13,9 @@ export const StyledPage = styled.div`
 export const StyledInnerPageContainer = styled.div`
     padding: 40px 10px;
     max-width: inherit;
+    @media (max-width: ${constants.tabletScreenSize}) {
+        padding: 20px 20px 20px 5px;
+    }
 `;
 
 const StyledOneColumnPage = styled.div`

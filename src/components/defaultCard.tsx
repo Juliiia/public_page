@@ -20,7 +20,7 @@ const StyledLabels = styled.div`
 const StyledImg = styled.img`    
     display: block;
     margin: auto;
-    max-height: 100%;
+    max-width: 100%;
     margin-bottom: 10px;
 `;
 
