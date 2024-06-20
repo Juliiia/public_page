@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import styled from 'styled-components';
 import { useRoutes } from 'react-router-dom';
 import Navbar from "./components/navbar";
 import {RouteObject} from "react-router";
@@ -8,7 +7,6 @@ import Footer from './pages/landingPage/Footer';
 import { PortfolioPage } from './pages/PortfolioPage';
 import { BlogPage } from './pages/BlogPage';
 import { AboutPage } from './pages/AboutPage';
-import constants from './js/constants.js'
 import { Impressum } from './pages/Impressum';
 import { StyledPage } from './components/pageLayout';
 

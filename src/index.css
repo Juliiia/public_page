@@ -41,4 +41,7 @@ a:hover {
   text-decoration: none;
 }
 
+p{
+  white-space: pre-wrap
+}
 

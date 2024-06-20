@@ -15,6 +15,13 @@ export const StyledInnerPageContainer = styled.div`
     max-width: inherit;
 `;
 
+const StyledOneColumnPage = styled.div`
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 100px;
+    margin-top: 60px;
+`;
+
 const StyledBlogPage = styled.div`
     display: grid;
     grid-template-columns: auto;
@@ -38,6 +45,17 @@ export const BlogPageStructure = (props:PageProps) => {
             <StyledBlogPage>
               {props.children}  
             </StyledBlogPage>
+        </StyledInnerPageContainer>
+    )
+}
+
+export const OneColumnPageStructure = (props:PageProps) => {
+    return (
+        <StyledInnerPageContainer>
+            <h1>{props.title}</h1>
+            <StyledOneColumnPage>
+              {props.children}  
+            </StyledOneColumnPage>
         </StyledInnerPageContainer>
     )
 }
