@@ -15,7 +15,7 @@ function App() {
 
     const routes: RouteObject[] = [
         {
-            path: '*',
+            path: '/*',
             element: <LandingPage />,
         },
         {
