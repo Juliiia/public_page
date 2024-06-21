@@ -19,19 +19,19 @@ function App() {
             element: <LandingPage />,
         },
         {
-            path: 'portfolio',
+            path: '/portfolio',
             element: <PortfolioPage />,
         },
         {
-            path: 'blog',
+            path: '/blog',
             element: <BlogPage />,
         },
         {
-            path: 'about',
+            path: '/about',
             element: <AboutPage />,
         },
         {
-            path: 'impressum',
+            path: '/impressum',
             element: <Impressum />,
         },
     ];
