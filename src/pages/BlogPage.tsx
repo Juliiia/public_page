@@ -21,7 +21,7 @@ export const BlogPage = () => {
         <BlogPageStructure title={t('blogPage.title')} >
             
             <DefaultCard 
-                title={t('blogPage.benefitsMediumArtikle.title')} 
+                title={t('blogPage.benefitsMediumArticle.title')} 
                 imgSrc={preRSMediumBanner} 
                 imgAlt={"Deco"} 
                 labels={
@@ -32,10 +32,10 @@ export const BlogPage = () => {
                 }>
 
                 <>
-                    {t('blogPage.benefitsMediumArtikle.content')}
+                    {t('blogPage.benefitsMediumArticle.content')}
                     <br/>
                     <LinkOpenInNewTab linkTo={"https://medium.com/@julia.mucha/benefits-of-pre-rs-traceability-why-should-we-know-the-origin-of-a-requirement-f05063253363"}>
-                        {t('blogPage.benefitsMediumArtikle.linkMedium')}
+                        {t('blogPage.benefitsMediumArticle.linkMedium')}
                     </LinkOpenInNewTab>
                 </>
 
