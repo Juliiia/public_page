@@ -1,8 +1,25 @@
 {
+  "greeting": {
+    "title": "Welcome",
+    "content": "Successful software development projects start with precise requirements analysis and a clearly defined traceability strategy. With my extensive experience in research and industry, I am happy to assist you in the following areas:"
+  },
+  "service": {
+    "re": {
+      "title": "Systematic Gathering and Documentation of Requirements",
+      "subTitle": "Implementation & Consulting",
+      "description": "Targeted Requirements Gathering: Conducting workshops and interviews to collect and document requirements. \n\n Documentation: Creation of comprehensive and understandable requirements documents."
+    },
+    "traceability": {
+      "title": "Development of a Tailored Traceability Strategy",
+      "subTitle": "Consulting",
+      "description": "Project- and Team-Specific Adjustments: Development of a traceability strategy tailored to the specific context of your project and the working style of your team."
+    }
+  },
   "topSection": {
     "me": "Dr.-Ing. Julia Mucha",
     "re": "Requirements Engineering",
     "uxui": "UX/UI",
+    "traceability": "Traceability",
     "dev": "Frontend Development",
     "statement": "With creativity and structure, I support the planning and implementation of software projects. From requirements gathering to user interface development and implementation planning, I am here to offer guidance and assistance."
   },
@@ -32,6 +49,11 @@
   },
    "blogPage": {
     "title": "Publications",
+    "benefitsMediumArtikel": {
+      "title": "Benefits of Pre-RS Traceability — Why Should We Know the Origin of a Requirement?",
+      "content": "This article is a brief and concise summary of the scientific article ''. The summary focuses on the use cases that enable pre-RS traceability. This article is available in English on Medium.",
+      "linkMedium": "Published as a Medium article"
+    },
     "benefitsPaper": {
         "title": "Benefits about Pre-RS-Traceability",
         "content": "Abstract: Requirements traceability is the ability to trace requirements to other software engineering artifacts. Traceability can be classified as either pre- or post-requirements specifications (RS) traceability. Pre-RS traceability is the ability to trace between requirements and their origin. However, the benefits of pre-RS traceability are often not clear. In this article, we systematically lay out the benefits of pre-RS traceability. We present results from both a literature review and a qualitative survey of practitioners involved with documenting and utilizing such trace links. We find that the benefits strongly depend on the practitioners, their tasks, and the project environment. Awareness of these relationships supports a clearer understanding of the benefits of pre-RS traceability and thus motivates successful implementation of the required practices. The results of our research motivates the adoption of pre-RS traceability and present problem areas for future research.",

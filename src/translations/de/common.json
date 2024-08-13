@@ -1,8 +1,25 @@
 {
+  "greeting": {
+    "title": "Willkommen",
+    "content": "Erfolgreiche Softwareentwicklungsprojekte beginnen mit einer präzisen Anforderungsanalyse und einer klar definierten Traceability-Strategie. Mit meiner umfassenden Erfahrung aus Forschung und Industrie helfe ich Ihnen gerne in folgenden Bereichen:"
+  },
+  "service": {
+    "re": {
+      "title": "Systematische Erhebung und Dokumentation von Anforderungen",
+      "subTitle": "Durchführung & Beratung",
+      "description": "Gezielte Anforderungserhebung: Durchführung von Workshops und Interviews zur Sammlung und Dokumentation von Anforderungen. \n\n Dokumentation: Erstellung von umfassenden und nachvollziehbaren Anforderungsdokumenten."
+    },
+    "traceability": {
+      "title": "Entwicklung einer maßgeschneiderten Traceability-Strategie",
+      "subTitle": "Beratung",
+      "description": "Projekt- und Team-spezifische Anpassungen: Entwicklung einer Traceability-Strategie, die auf den spezifischen Kontext Ihres Projekts und die Arbeitsweise Ihres Teams zugeschnitten ist."
+    }
+  },
   "topSection": {
     "me": "Dr.-Ing. Julia Mucha",
     "re": "Requirements Engineering",
     "uxui": "UX/UI",
+    "traceability": "Traceability",
     "dev": "Frontend Development",
     "statement": "Mit Kreativität und Struktur unterstütze ich bei der Planung und Umsetztung von Softwareprojekten. Von der Erhebung der Anforderungen, über die Entwicklung von Nutzerobeflächen bishin zur Planung der Implementierung, stehe ich gerne mit Rat und Tat zur Seite."
   }, 
@@ -32,6 +49,11 @@
   },
    "blogPage": {
     "title": "Veröffentlichungen",
+    "benefitsMediumArtikle": {
+        "title": "Benefits of Pre-RS Traceability — Why Should We Know the Origin of a Requirement?",
+        "content": "Dieser Artikel ist eine kurze und prägnante Zusammenfassung des wissenschaftlichen Artikels ''. Die Zusammenfassung fokussiert sich auf die Anwendungsfälle, die Pre-RS-Traceability ermöglichen. Dieser Artikel ist auf Englisch auf Medium verfügbar.",
+        "linkMedium": "Veröffentlichung als Medium-Artikel"
+    },
     "benefitsPaper": {
         "title": "Nutzen von Pre-RS-Traceability",
         "content": "Requirements Traceability (RT) ist die Fähigkeit nachvollziehen zu können, wo eine Anforderung herkommt und wo sie implementiert wurde. Im Speziellen bezieht sich Pre-RS Traceability auf die Nachvollziehbarkeit, woher eine Anforderung kommt, wie beispielsweise aus einem Kundenfeedback oder einem einzuhaltenden Standard. \n Der Nutzen von Pre-RS Traceability ist oft nicht offensichtlich und auch unklar für alle Beteiligten. In diesem Artikel erklären wir systematisch den Nutzen anhand einer Literaturübersicht und einer Umfrage unter Experten. Das Wissen um den Nutzen von Pre-RS Traceability hilft bei der Entscheidung, inwieweit und in welchem Umfang Traceability in einem Softwareentwicklungsprojekt benötigt wird.",

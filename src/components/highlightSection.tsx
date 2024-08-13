@@ -1,13 +1,13 @@
 import React, {useEffect, useRef} from 'react';
 import styled from 'styled-components';
 import constants from '../js/constants.js';
-import { DefaultTFuncReturn } from 'i18next';
+import {DefaultTFuncReturn} from "i18next";
 
 const StyledSection = styled.div`
     display: flex;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 `;
 
 
@@ -19,6 +19,7 @@ const StyledHeaderBox = styled.div`
 
 const StyledHeaderContainer = styled.div`
     background-color: ${constants.mainOrange};
+    color: #ffffff;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -79,8 +80,8 @@ const StyledStatement = styled.div`
 `;
 
 type SectionProps = {
-    title: string;
-    subTitle?: string;
+    title: string | DefaultTFuncReturn | JSX.Element | JSX.Element[];
+    subTitle?: string | DefaultTFuncReturn | JSX.Element | JSX.Element[];
     children: string | DefaultTFuncReturn | JSX.Element | JSX.Element[];
     alignment?: 'left' | 'right';
 };

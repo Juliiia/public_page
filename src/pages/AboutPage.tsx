@@ -21,6 +21,7 @@ const StyledHaderBox = styled.div`
 
 const StyledHeaderContainer = styled.div`
     background-color: ${constants.mainOrange};
+    color: #ffffff;
     max-height: 150px;
     display: flex;
     flex-direction: row;
@@ -95,7 +96,7 @@ export const AboutPage = () => {
                             {t('topSection.me')}
                         </h1>
                         <StyledSubTitle>
-                            {t('topSection.re')} &#x2022; {t('topSection.uxui')} &#x2022; {t('topSection.dev')}
+                            {t('topSection.re')} &#x2022; {t('topSection.traceability')} &#x2022; {t('topSection.uxui')}
                         </StyledSubTitle> 
                     </StyledNameContainer>
                     

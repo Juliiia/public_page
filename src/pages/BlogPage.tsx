@@ -9,6 +9,8 @@ import slrBanner from '../assets/img/slr_banner.png'
 // @ts-ignore
 import preRSBanner from '../assets/img/Pre-RS_traceability_banner.png'
 // @ts-ignore
+import preRSMediumBanner from '../assets/img/Pre-RS_traceability_medium_banner.png'
+// @ts-ignore
 import dissBanner from '../assets/img/Diss_banner.png'
 import { Label } from "../components/label";
 
@@ -18,6 +20,27 @@ export const BlogPage = () => {
     return(
         <BlogPageStructure title={t('blogPage.title')} >
             
+            <DefaultCard 
+                title={t('blogPage.benefitsMediumArtikle.title')} 
+                imgSrc={preRSMediumBanner} 
+                imgAlt={"Deco"} 
+                labels={
+                    <>
+                        <Label>{t('tags.re')}</Label>
+                        <Label>{t('tags.traceability')}</Label>
+                    </>
+                }>
+
+                <>
+                    {t('blogPage.benefitsMediumArtikle.content')}
+                    <br/>
+                    <LinkOpenInNewTab linkTo={"https://medium.com/@julia.mucha/benefits-of-pre-rs-traceability-why-should-we-know-the-origin-of-a-requirement-f05063253363"}>
+                        {t('blogPage.benefitsMediumArtikle.linkMedium')}
+                    </LinkOpenInNewTab>
+                </>
+
+            </DefaultCard>
+
             <DefaultCard 
                 title={t('blogPage.benefitsPaper.title')} 
                 imgSrc={preRSBanner} 

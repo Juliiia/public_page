@@ -8,32 +8,35 @@ import { HighlightSection } from '../../components/highlightSection.js';
 const StyledInnerPageFlexContainer = styled(StyledInnerPageContainer)`
     display: grid;
     grid-template-columns: auto;
-    row-gap: 60px;
-    margin: 60px auto 80px auto;
+    row-gap: 90px;
+    margin: 30px auto 80px auto;
 `;
 
 const LandingPage = () => {
     const {t, i18n} = useTranslation('common');
 
     return (
+    <>
+        <h1>{t('greeting.title')}</h1>
+        <p>{t('greeting.content')}</p>
+        
         <StyledInnerPageFlexContainer> 
-
             <HighlightSection 
-            title='Systematische Erhebung und Dokumentation von Anforderungen' 
-            subTitle='Durchführung &#x2022; Beratung' 
+            title={t('service.re.title')} 
+            subTitle={t('service.re.subTitle')}  
             alignment='right' >
-                Gezielte Anforderungserhebung: Durchführung von Workshops und Interviews zur Sammlung und Dokumentation von Anforderungen. 
-                Dokumentation: Erstellung von umfassenden und nachvollziehbaren Anforderungsdokumenten.
+                {t('service.re.description')}  
             </HighlightSection>
 
             <HighlightSection 
-            title='Entwicklung einer maßgeschneiderten Traceability-Strategie' 
-            subTitle='Beratung' 
+            title={t('service.traceability.title')}
+            subTitle={t('service.traceability.subTitle')} 
             alignment='left' >
-                Projekt- und Team-spezifische Anpassungen: Entwicklung einer Traceability-Strategie, die auf den spezifischen Kontext Ihres Projekts und die Arbeitsweise Ihres Teams zugeschnitten ist.
+                {t('service.traceability.description')}
             </HighlightSection>
 
         </ StyledInnerPageFlexContainer>
+    </> 
     )
 }
 
