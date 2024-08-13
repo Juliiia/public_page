@@ -70,6 +70,10 @@ const Navbar = () => {
                 <StyledNavbarItem>
                     <Link to="/blog">{t('blogPage.title')}</Link>
                 </StyledNavbarItem>
+
+                <StyledNavbarItem>
+                    <Link to="/about">{t('navbar.about')}</Link>
+                </StyledNavbarItem>
             </StyledNavbarPagelinks>
         </StyledNavbarDiv>
     )
