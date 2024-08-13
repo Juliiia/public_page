@@ -3,7 +3,9 @@ import styled from 'styled-components';
 import constants from '../js/constants.js'
 import { useTranslation} from "react-i18next";
 // @ts-ignore
-import portrait from '../assets/img/Mucha_Querformat-freisteller.png'
+import portrait from '../assets/img/Mucha_Querformat-freisteller.png';
+// @ts-ignore
+import cvDePDF from '../assets/documents/Lebenslauf_Julia_Mucha.pdf';
 import { StyledInnerPageContainer } from '../components/pageLayout.js';
 
 const StyledHaderBox = styled.div`
@@ -106,6 +108,13 @@ export const AboutPage = () => {
             <StyledStatement>
                 {t('topSection.statement')}
             </StyledStatement>
+
+            <p>
+                {t('topSection.description')}
+            </p>
+            <p>
+            <a href={cvDePDF} target="_blank">{t('topSection.cvDeDownload')}</a>
+            </p>
         </ StyledInnerPageFlexContainer>
     )
 }
